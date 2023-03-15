@@ -31,6 +31,18 @@ const handleUserInput = function (key) {
     // console.log("Move: right");
     connections.write("Move: right");
   }
+  
+  if (key === '1') {
+    connections.write("Say: (^0^)");
+  }
+
+  if (key === '2') {
+    connections.write("Say: (T.T)");
+  }
+
+  if (key === '3') {
+    connections.write("Say: (>_<)")
+  }
 };
 
 
